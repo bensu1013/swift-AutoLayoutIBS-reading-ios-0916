@@ -18,8 +18,12 @@ class ViewController: UIViewController {
         view.addSubview(blueView)
         
         let redView = UIView(frame: CGRect(x: 150.0, y: 150.0, width: 40.0, height: 40.0))
+     
         redView.backgroundColor = UIColor.red
         view.addSubview(redView)
+        
+        
+       
     }
     
 }
